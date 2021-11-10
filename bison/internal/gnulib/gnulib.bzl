@@ -19,10 +19,10 @@ load(
     _VERSION_URLS = "VERSION_URLS",
 )
 
-_GNULIB_VERSION = "788db09a9f88abbef73c97e8d7291c40455336d8"
-_GNULIB_SHA256 = "4350696d531852118f3735a0e2d1091746388392c27d582f0cc241b6a39fe493"
+_GNULIB_VERSION = "7818455627c5e54813ac89924b8b67d0bc869146"
+_GNULIB_SHA256 = "7dc5834724f2faec6428ad32a78ff4df2a45fc28867178c99e81c6e2c481864a"
 
-_URL_BASE = "github.com/jmillikin/rules_bison/releases/download/v0.1/bison-gnulib-{}.tar.xz".format(_GNULIB_VERSION)
+_URL_BASE = "github.com/coreutils/gnulib/archive/{}.zip".format(_GNULIB_VERSION)
 
 _GNULIB_URLS = [
     "https://mirror.bazel.build/" + _URL_BASE,
